@@ -1,0 +1,85 @@
+{
+  "bgm_home": {
+    "path": "bgm/bgm_home",
+    "volume": 0.65,
+    "kind": "bgm"
+  },
+  "bgm_level": {
+    "path": "bgm/bgm_level",
+    "volume": 0.58,
+    "kind": "bgm"
+  },
+  "jingle_win": {
+    "path": "bgm/jingle_win",
+    "volume": 0.75,
+    "kind": "jingle"
+  },
+  "jingle_lose": {
+    "path": "bgm/jingle_lose",
+    "volume": 0.6,
+    "kind": "jingle"
+  },
+  "sfx_button_tap": {
+    "path": "sfx/sfx_button_tap",
+    "variants": 3,
+    "volume": 0.75,
+    "kind": "sfx"
+  },
+  "sfx_tile_slide": {
+    "path": "sfx/sfx_tile_slide",
+    "variants": 3,
+    "volume": 0.8,
+    "kind": "sfx"
+  },
+  "sfx_tile_bump": {
+    "path": "sfx/sfx_tile_bump",
+    "volume": 0.65,
+    "kind": "sfx"
+  },
+  "sfx_pin_pull": {
+    "path": "sfx/sfx_pin_pull",
+    "variants": 3,
+    "volume": 0.75,
+    "kind": "sfx"
+  },
+  "sfx_pin_chain": {
+    "path": "sfx/sfx_pin_chain",
+    "volume": 0.7,
+    "kind": "sfx"
+  },
+  "sfx_pipe_merge": {
+    "path": "sfx/sfx_pipe_merge",
+    "volume": 0.75,
+    "kind": "sfx"
+  },
+  "sfx_cross_flash": {
+    "path": "sfx/sfx_cross_flash",
+    "volume": 0.65,
+    "kind": "sfx"
+  },
+  "sfx_valve_hiss": {
+    "path": "sfx/sfx_valve_hiss",
+    "volume": 0.65,
+    "kind": "sfx"
+  },
+  "sfx_path_link": {
+    "path": "sfx/sfx_path_link",
+    "volume": 0.65,
+    "kind": "sfx"
+  },
+  "sfx_snack_pick": {
+    "path": "sfx/sfx_snack_pick",
+    "volume": 0.7,
+    "kind": "sfx"
+  },
+  "sfx_order_full": {
+    "path": "sfx/sfx_order_full",
+    "volume": 0.7,
+    "kind": "sfx"
+  },
+  "sfx_coin_fly": {
+    "path": "sfx/sfx_coin_fly",
+    "volume": 0.7,
+    "kind": "sfx"
+  }
+}
