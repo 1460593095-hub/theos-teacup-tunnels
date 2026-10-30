@@ -1,0 +1,18 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<title>Theo's Teacup Tunnels</title><style>
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#171717;touch-action:none}
+#GameDiv{width:100%;height:100%}canvas{touch-action:none}
+#boot{position:fixed;inset:0;display:grid;place-content:center;justify-items:center;gap:18px;padding:28px;box-sizing:border-box;text-align:center;background:#171717;color:#dedede;font:16px/1.5 system-ui,sans-serif;z-index:10}
+#boot img{display:block;width:286.25px;height:135px;object-fit:contain}
+#status{max-width:300px;min-height:48px;margin:0}
+#status,#retry{opacity:.99;transform:translateZ(0)}
+#boot progress{width:min(65vw,260px);height:8px;accent-color:#40b9e5;background-color:#40b9e5}
+#retry{padding:10px 30px;border:0;background:transparent;color:#dedede;font:inherit}
+[hidden]{display:none!important}
+</style></head><body><div id="GameDiv"><canvas id="GameCanvas" tabindex="0"></canvas></div>
+<div id="boot" data-cocos-official-loading><img id="cocos-loading-logo" src="loading/splash.png" alt="Cocos Creator">
+<progress id="loading-progress" aria-label="Loading resources"></progress>
+<p id="status" role="status" aria-live="polite">Loading...</p><button id="retry" hidden>Retry</button></div>
+<script>function alignCocosLogo(){var n=document.getElementById('cocos-loading-logo');if(!n)return;n.style.transform='none';var r=n.getBoundingClientRect();n.style.transform='translate('+ (Math.round(r.x)-r.x)+'px,'+(Math.round(r.y)-r.y)+'px)';}addEventListener('resize',alignCocosLogo);requestAnimationFrame(alignCocosLogo);</script>
+<script src="src/boot.js?v=r22-v77-20261030"></script></body></html>
